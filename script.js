@@ -6,8 +6,8 @@ function firstNonRepeatedChar(str) {
   for (let char of str) {
     if (freq[char] === 1) return char;
   }
-  return null; // real null
+  return null; 
 }
 
 const input = prompt("Enter a string:");
-alert(firstNonRepeatedChar(input)); // ❌ This will convert null to "null"
+alert(firstNonRepeatedChar(input)); 
